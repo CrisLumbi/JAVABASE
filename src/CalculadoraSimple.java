@@ -18,6 +18,14 @@ public class CalculadoraSimple {
         int resta = a - b;
         System.out.println("Resta: " + resta);
 
+        //Division
+        if (b==0) {
+            System.out.println("Error: No se puede dividir entre entre cero");
+        } else {
+            double resultado = a/b;
+            System.out.println("Resultado: " + resultado);
+        }
+
 
 
 
